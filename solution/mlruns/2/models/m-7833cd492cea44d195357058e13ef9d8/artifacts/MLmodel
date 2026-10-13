@@ -1,0 +1,24 @@
+artifact_path: file:C:/Users/Mauro/resources/mod4/mle-mlops-project-mauro/solution/mlruns/2/models/m-7833cd492cea44d195357058e13ef9d8/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.0
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.16.1
+model_id: m-7833cd492cea44d195357058e13ef9d8
+model_size_bytes: 1769127
+model_uuid: m-7833cd492cea44d195357058e13ef9d8
+prompts: null
+run_id: 8518f449a75e42fe8c0b609a4844eaf2
+utc_time_created: '2026-10-12 11:40:24.557905'
